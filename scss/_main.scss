@@ -1,0 +1,28 @@
+body{
+    background-color: $bgPrimario;
+}
+.newslatter{
+    background-color: $colorSecundario;
+    @media only screen and (max-width: 763px) {
+        font-size: 10px;
+        
+    }
+}
+header, footer{
+    background-color: $colorPrimario;
+}
+
+.checkout{
+    padding: 107px 0 ;
+}
+
+.boton{
+    border: 1px solid black;
+    border-radius: 7px;
+    
+}
+
+.container, .principal {
+    padding: 2%;
+}
+
