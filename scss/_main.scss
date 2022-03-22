@@ -4,7 +4,8 @@ body{
 .newslatter h4{
     background-color: $colorSecundario;
     @media only screen and (max-width: 768px) {
-        font-size: 5px;
+        font-size: 15px;
+        width: 100%;
         
     }
 }
@@ -26,8 +27,10 @@ header, footer{
     padding: 2%;
 }
 
-h1 {
-    @media screen {
-        
+.checkout h1{
+    @media only screen and (max-width: 768px) {
+        font-size: 15px;
+        justify-content: center;
+        text-align: center;
     }
 }

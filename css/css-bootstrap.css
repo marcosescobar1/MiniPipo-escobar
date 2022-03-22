@@ -25,11 +25,12 @@
 body {
   background-color: linen; }
 
-.newslatter {
+.newslatter h4 {
   background-color: #e9ffdb; }
-  @media only screen and (max-width: 763px) {
-    .newslatter {
-      font-size: 10px; } }
+  @media only screen and (max-width: 768px) {
+    .newslatter h4 {
+      font-size: 15px;
+      width: 100%; } }
 
 header, footer {
   background-color: #ace1af; }
@@ -43,6 +44,12 @@ header, footer {
 
 .container, .principal {
   padding: 2%; }
+
+@media only screen and (max-width: 768px) {
+  .checkout h1 {
+    font-size: 15px;
+    justify-content: center;
+    text-align: center; } }
 
 .vh-100 {
   background-color: #ace1af; }
